@@ -23,7 +23,6 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen bg-background ">
 
         <h2 className="p-2 text-2xl font-bold text-zinc-700"> Hi, Feliciano</h2>
         <p className="text-sm text-zinc-500 p-2">Confira abaixo os dados gerais da aplicação em tempor real</p>
@@ -36,7 +35,6 @@ export default function Home() {
           <div className="w-full rounded-lg ring-1 ring-zinc-200"><Component /></div>
         </div>
         
-      </div>
-    </>
+                                  </>
   );
 }

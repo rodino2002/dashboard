@@ -17,7 +17,7 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
 
-    <div className="flex h-screen bg-background">
+    <div className="flex h-screen bg-zinc-50">
       {/* Sidebar fixa à esquerda */}
       <Sidebar
         isOpen={sidebarOpen}

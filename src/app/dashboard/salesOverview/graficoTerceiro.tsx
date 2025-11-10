@@ -36,15 +36,15 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartBarDefault() {
+export function ChartBarOverview() {
   return (
-    <Card>
+    <Card >
       
-      <CardContent>
+      <CardContent className="border-none">
         <ChartContainer config={chartConfig}>
           <BarChart accessibilityLayer data={chartData}>
             <CartesianGrid vertical={false} />
-            <XAxis
+            <XAxis 
               dataKey="month"
               tickLine={false}
               tickMargin={10}
@@ -59,7 +59,7 @@ export function ChartBarDefault() {
           </BarChart>
         </ChartContainer>
       </CardContent>
-      
+    
     </Card>
   )
 }
