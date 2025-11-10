@@ -1,4 +1,3 @@
-import { ChartBarDefault } from "@/components/dashboard/graficoTerceiro";
 import React from "react";
 import { ChartBarOverview } from "./graficoTerceiro";
 
