@@ -1,5 +1,5 @@
 "use client";
-import { use, useState } from "react";
+import { useState } from "react";
 import { Menu } from "lucide-react";
 import {
   DropdownMenu,
@@ -15,7 +15,6 @@ import {
   Dialog,
   DialogClose,
   DialogContent,
-  DialogTrigger,
 } from "@/components/ui/dialog"
 
 interface HeaderProps {

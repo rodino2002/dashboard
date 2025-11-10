@@ -4,14 +4,12 @@ import { Header } from "@/components/Layout/header";
 import { Sidebar } from "@/components/Layout/sidebar";
 import { useState } from "react";
 
-
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 export default function Layout({ children }: LayoutProps) {
 
-  const [currentPage, setCurrentPage] = useState("dashboard");
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 

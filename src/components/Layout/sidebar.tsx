@@ -6,7 +6,6 @@ import {
   FileText,
   Users,
   Folder,
-  CreditCard,
   Briefcase,
   ChevronsLeft,
   ChevronsRight,

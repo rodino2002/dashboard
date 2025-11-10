@@ -60,4 +60,4 @@ export const config: MiddlewareConfig = {
         '/((?!api|_next/static|favicon.ico|login|register|public|_next/image|.*\\.\\w+|_next|_next/data|_next/static|_next/image|_next/font).*)',
     ],
 }
-        ''
+        
