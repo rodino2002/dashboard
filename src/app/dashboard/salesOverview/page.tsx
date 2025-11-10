@@ -95,8 +95,8 @@ export default function SalesOverviewPage() {
                     <div className="flex justify-between items-center w-full">
                         <p className="text-zinc-700 font-bold text-xl">Costumer Owing the most</p>
                         <p className="text-[#6f0480] ">See all</p></div>
-                    {costumer?.map((item) =>
-                        <div className="grid grid-cols-3 gap-2 p-5">
+                    {costumer?.map((item, key) =>
+                        <div key={key} className="grid grid-cols-3 gap-2 p-5">
                             <p className="text-zinc-400 font-semibold">{item?.name}</p>
                             <p className="text-zinc-700 font-bold">{item?.ValueIn}</p>
                             <p className="text-zinc-700 font-bold">{item?.valueOut}</p>

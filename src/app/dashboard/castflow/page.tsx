@@ -52,15 +52,15 @@ export default function CastFlowPage() {
                         <div className="space-y-4 p-4">
                             <p className="font-semibold text-zinc-700 ">30 days summary</p>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                         </div>
@@ -81,39 +81,15 @@ export default function CastFlowPage() {
                         <div className="space-y-4 p-4">
                             <p className="font-semibold text-zinc-700 ">30 days summary</p>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
-                                <p className="font-semibold">12500</p>
-                            </div>
-                        </div>
-                        <footer className="flex justify-between bg-zinc-100 absolute top-[73%] w-full p-4 rounded-b-lg">
-                            <div>
-                                <p>Project balance</p>
-                                <p className="text-zinc-400">In Mar 2 </p>
-                            </div>
-                            <div><p className="font-bold text-3xl">43.200</p></div>
-                        </footer>
-                    </div>
-                    <div className=" ring-1 ring-zinc-300 rounded-lg relative">
-                        <div className="space-y-4 p-4">
-                            <p className="font-semibold text-zinc-700 ">30 days summary</p>
-                            <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
-                                <p className="font-semibold">12500</p>
-                            </div>
-                            <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
-                                <p className="font-semibold">12500</p>
-                            </div>
-                            <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                         </div>
@@ -129,15 +105,39 @@ export default function CastFlowPage() {
                         <div className="space-y-4 p-4">
                             <p className="font-semibold text-zinc-700 ">30 days summary</p>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                             <div className="flex justify-between w-full items-center">
-                                <p>Today's</p>
+                                <p>Today is</p>
+                                <p className="font-semibold">12500</p>
+                            </div>
+                        </div>
+                        <footer className="flex justify-between bg-zinc-100 absolute top-[73%] w-full p-4 rounded-b-lg">
+                            <div>
+                                <p>Project balance</p>
+                                <p className="text-zinc-400">In Mar 2 </p>
+                            </div>
+                            <div><p className="font-bold text-3xl">43.200</p></div>
+                        </footer>
+                    </div>
+                    <div className=" ring-1 ring-zinc-300 rounded-lg relative">
+                        <div className="space-y-4 p-4">
+                            <p className="font-semibold text-zinc-700 ">30 days summary</p>
+                            <div className="flex justify-between w-full items-center">
+                                <p>Today is</p>
+                                <p className="font-semibold">12500</p>
+                            </div>
+                            <div className="flex justify-between w-full items-center">
+                                <p>Today is</p>
+                                <p className="font-semibold">12500</p>
+                            </div>
+                            <div className="flex justify-between w-full items-center">
+                                <p>Today is</p>
                                 <p className="font-semibold">12500</p>
                             </div>
                         </div>

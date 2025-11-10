@@ -11,7 +11,7 @@ export default function Login() {
         password: ""
     })
 
-    function onSubmit(e: any) {
+    function onSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
         return route.push('/dashboard')
     }
@@ -32,7 +32,7 @@ export default function Login() {
 
             <div className="h-screen grid place-items-center w-full ">
                 <div className="flex items-center space-x-2 w-full mt-[-20px] justify-end pr-4 ">
-                    <p>Don't have an account?</p>
+                    <p>Do not have an account?</p>
                     <p className="font-semibold cursor-pointer text-[#6f0480]">Sign Up</p>
                 </div>
                 <form className="text-zinc-700 w-[35%]" onSubmit={onSubmit}>
